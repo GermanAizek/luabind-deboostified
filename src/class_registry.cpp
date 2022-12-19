@@ -28,7 +28,6 @@
 #include <luabind/typeid.hpp>           // for type_id
 #include <luabind/detail/class_registry.hpp>  // for class_registry
 #include <luabind/detail/class_rep.hpp>  // for class_rep
-#include <luabind/detail/garbage_collector.hpp>  // for garbage_collector
 
 
 #include <cassert>                      // for assert

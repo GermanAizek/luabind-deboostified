@@ -8,7 +8,6 @@ set(LUABIND_SOURCES
 	"exception_handler.cpp"
 	"function.cpp"
 	"function_introspection.cpp"
-	"headertest.cpp"
 	"inheritance.cpp"
 	"link_compatibility.cpp"
 	"memory.cpp"

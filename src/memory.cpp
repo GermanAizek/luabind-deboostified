@@ -1,7 +1,6 @@
 #define LUABIND_BUILDING
 
 #include <luabind/config.hpp>
-#include <luabind/memory.hpp>
 
 namespace luabind
 {

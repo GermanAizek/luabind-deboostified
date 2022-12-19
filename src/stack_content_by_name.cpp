@@ -27,8 +27,6 @@
 #include <luabind/detail/class_rep.hpp>  // for class_rep, is_class_rep
 #include <luabind/detail/object_rep.hpp> // for get_instance, object_rep
 
-#include <string>                        // for string
-
 using namespace luabind::detail;
 
 luabind::string luabind::detail::stack_content_by_name(lua_State* L, int start_index)

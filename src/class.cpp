@@ -26,10 +26,8 @@
 
 #include <luabind/config.hpp>
 #include <luabind/class.hpp>
-#include <luabind/nil.hpp>
 #include <luabind/detail/debug.hpp>
 
-#include <cstring>
 #include <iostream>
 
 namespace
