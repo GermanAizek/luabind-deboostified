@@ -187,7 +187,7 @@ namespace luabind {
 
 			if(i == edges.end() || i->target != target)
 			{
-				edges.insert(i, edge(target, cast));
+				edges.emplace(i, edge(target, cast));
 				m_cache.invalidate();
 			}
 		}
@@ -218,7 +218,7 @@ namespace luabind {
 			static map_type registered;
 			static class_id id = 0;
 
-			std::pair<map_type::iterator, bool> inserted = registered.insert(std::make_pair(cls, id));
+			const auto& inserted = registered.emplace(cls, id);
 			if(inserted.second) ++id;
 
 			return inserted.first->second;
